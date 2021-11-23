@@ -1,0 +1,52 @@
+@import "colours";
+@import "fonts";
+
+.footer_Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 271px;
+    width: 100%;
+    background-color: $black_Grey;
+
+    .footer_Container_Text{
+        font-family: $JosefinSans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 26px;
+        letter-spacing: 3.36px;
+        color: $white;
+    }
+    .footer_Container_Text_Second{
+        font-weight: normal;
+        font-size: 1rem;
+        letter-spacing: 1.6px;
+    }
+    .fa-twitter, .fa-facebook-f, .fa-linkedin-in, .fa-youtube, .fa-pinterest{
+        color: $white;
+        transition: color 0.5s ease-out;
+    }
+    .fa-twitter:hover{
+        color: $twitter_Blue;
+    }
+    .fa-facebook-f:hover{
+        color: $facebook_Blue;
+    }
+    .fa-linkedin-in:hover{
+        color: $linkedin_Blue;
+    }
+    .fa-youtube:hover{
+        color: $youtube_Red;
+    }
+    .fa-pinterest:hover{
+        color: $pintrest_Red;
+    }
+    .footer_container_SocialMedia{
+        display: flex;
+        gap: 20px;
+        margin-top: 15px;
+    }
+}
